@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "idecm",
+  "version": "0..1",
+
+  "name": "Ind3n7",
+  "description": "This could be the future. Or. Maybe Not.",
+  "authors": [
+    "4EverI"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "agpl-3.0",
+  "icon": "assets/idecm/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "indent.Indent"
+    ],
+    "block": [
+      "indent.Ind3n7D3V"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
+
